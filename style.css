@@ -1,0 +1,292 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+}
+/* div{
+    border: 2px solid black;
+} */
+.top_box{
+    height: 45px;
+}
+.top_box .signLaber{
+    width: 95%;
+}
+
+header{
+    height: 80px;
+}
+
+.searchBox{
+    background-color: #f0f0f0;
+}
+.searchBox i{
+    color: rgb(161, 161, 161);
+}
+.searchBox input{
+    outline: none;
+    width: 400px;
+    max-height: 36px;
+}
+.container1{
+    font-family: Satoshi, sans-serif;
+    width: 100%;
+    background-color: #f2f0f1 ;
+}
+.container1 h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 90px;
+    line-height: 85px;
+    margin-right: 140px;
+}
+.container1 button{
+    width: 34%;
+}
+.container1 .svg1{
+    left: 0;
+    top: 50%;
+}
+.container1 .svg2{
+    left: 80%;
+    top: 5%;
+}
+.container1 img{
+  width: 80%;
+  height: 100%;
+  margin-left: 80px;
+}
+
+.container2{
+  height: 100px;
+  background-color: black;
+}
+
+.container3{
+  min-height: 500px;
+}
+.container3 h1{
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 60px;
+}
+
+
+.container3 .content{
+  flex-wrap: nowrap;
+}
+
+.container4 .card,
+.container3 .card{
+  width: 24%;
+  max-height: 400px;
+  flex-shrink: 0;
+  margin-top: 20px;
+}
+.container4 .card-img,
+.container3 .card-img{
+  background-color: rgb(240, 238, 237);
+  height: 60%;
+}
+.container4 .card-tile ,
+.container3 .card-tile {
+  display: -webkit-box;
+  -webkit-line-clamp: 2;
+  line-clamp: 2;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+
+.container4 .card .starBox i,
+.container3 .card .starBox i{
+  color: gold;
+}
+.container3 button{
+  width: 200px;
+  height: 40px;
+  font-size: 17px;
+}
+.container4{
+  margin-top: 100px ;
+}
+.container4 button{
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+  background-color: transparent;
+  border: 0;
+  color: #b7b7b7;
+}
+
+
+@media screen and (max-width: 575.98px) {
+
+  
+  header .logo{
+    width: 150px !important;
+  }
+  header{
+    height: 55px;
+}
+
+  .top_box .signLaber{
+    font-size: 12px !important;
+  }
+  .top_box  .fa-xmark{
+    font-size: 13px !important;
+    margin-right: 20px;
+  }
+
+    .container1 h1{
+    font-size: 60px;
+    margin-right: 0px;
+    line-height: 70px;
+}
+.container1 button{
+    width: 100%;
+}
+
+.container1 img{
+  width: 100%;
+  height: 100%;
+  margin-left: 0px;
+}
+
+.count{
+  justify-content: center !important;
+  column-gap: 20px;
+  row-gap: 20px;
+}
+
+.container1 .svg1{
+    width: 50px ;
+}
+.container1 .svg2{
+    width: 60px;
+}
+
+.container2{
+  height: 60px;
+}
+.container2 svg{
+  width: 120px;
+  height: 100px;
+}
+.container2 .svg2{
+  width: 70px;
+}
+.container4 .card,
+.container3 .card{
+  width: 48%;
+  margin-left: 5px;
+}
+
+.container4{
+  margin-top: 40px ;
+}
+.container4 button{
+  font-size: 20px !important;
+}
+
+.container4 img,
+.container3 img{
+  width: 200% ;
+  height: 100%;
+}
+
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+  
+  
+  .top_box .signLaber{
+    font-size: 17px !important;
+  }
+  .top_box  .fa-xmark{
+    font-size: 17px !important;
+  }
+  .container1 h1{
+    font-size: 80px;
+    margin-right: 70px;
+    line-height: 75px;
+}
+.container4 .card ,
+.container3 .card{
+  width: 32%;
+  margin-left: 6px;
+}
+
+.container3 h1{
+    font-size: 40px !important;
+    
+}
+
+.container4{
+  margin-top: 50px ;
+}
+.container3 .content{
+  margin-bottom: 0px;
+}
+
+}
+
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  
+
+  .container1 h1{
+    font-size: 80px;
+    margin-right: 0px;
+    line-height: 70px;
+}
+.container4 .card,
+.container3 .card{
+  margin-left: 8px;
+}
+
+.container4{
+  margin-top: 50px ;
+}
+
+}
+
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+  
+  .container1 h1{
+    font-size: 80px;
+    margin-right: 0px;
+    line-height: 70px;
+}
+
+.container1 img{
+  width: 100%;
+  height: 100%;
+  margin-left: 10px;
+}
+
+.container1 .svg1{
+    width: 70px;
+}
+.container1 .svg2{
+    width: 80px;
+}
+.container4 .card,
+.container3 .card{
+  margin-left: 3px
+}
+
+.container4{
+  margin-top: 70px ;
+}
+
+}
+
+@media screen and (min-width: 1199.99px) and (max-width: 1384.98px){
+  
+.container4 .card{
+  width: 23% !important;
+  margin-left: 6px;
+}
+}
+
+

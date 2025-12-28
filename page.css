@@ -1,0 +1,129 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: rgb(0, 0, 0);
+    /* border: 2px solid black; */
+}
+.top_box{
+    height: 45px;
+}
+.top_box .signLaber{
+    width: 95%;
+}
+
+header{
+    height: 80px;
+}
+.searchBox{
+    background-color: #f0f0f0;
+}
+.searchBox i{
+    color: rgb(161, 161, 161);
+}
+.searchBox input{
+    outline: none;
+    width: 400px;
+    max-height: 36px;
+}
+
+.container1{
+    min-height: 500px
+}
+
+.container1 img{
+    width: 60%;
+}
+
+.container1 button{
+    font-size: 20px;
+    padding: 5px 20px 5px 20px;
+    background: transparent;
+}
+
+.container1{
+    border: 2px solid black;
+}
+.container1 .starBox i{
+  color: gold;
+}
+.container1 .description{
+    color: rgb(128, 127, 127);
+}
+
+.container1 .fa-heart{
+    color: red;
+}
+
+
+@media screen and (max-width: 575.98px) {
+  body {
+    background-color: red;
+  }
+
+  header .logo{
+    width: 150px !important;
+  }
+  header{
+    height: 55px;
+}
+
+  .top_box .signLaber{
+    font-size: 12px !important;
+  }
+  .top_box  .fa-xmark{
+    font-size: 13px !important;
+    margin-right: 20px;
+  }
+  .container1{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+  .container1 .btnBox{
+    display: flex;
+    flex-direction: column;
+  }
+  .container1 button{
+   margin-bottom: 10px; 
+  }
+}
+
+
+@media screen and (min-width: 576px) and (max-width: 767.98px) {
+  body {
+    background-color: yellow;
+  }
+  
+  .top_box .signLaber{
+    font-size: 17px !important;
+  }
+  .top_box  .fa-xmark{
+    font-size: 17px !important;
+  }
+  .container1{
+    width: 90%;
+    margin: auto;
+    margin-bottom: 30px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 991.98px) {
+  body {
+    background-color: orange;
+  }
+
+  .container1{
+    width: 90%;
+    margin: auto;
+  }
+  .container1 img{
+    width: 220px;
+  }
+}
+
+@media screen and (min-width: 992px) and (max-width: 1199.98px) {
+  body {
+    background-color: green;
+  }
+}
